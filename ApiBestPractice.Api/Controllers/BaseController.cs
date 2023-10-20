@@ -16,6 +16,4 @@ public class BaseController : ControllerBase
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
-    
-    
 }

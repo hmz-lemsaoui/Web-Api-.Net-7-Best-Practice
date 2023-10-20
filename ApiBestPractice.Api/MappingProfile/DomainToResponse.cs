@@ -9,5 +9,6 @@ public class DomainToResponse : Profile
     public DomainToResponse()
     {
         CreateMap<Achievement, DriverAchievementResponse>();
+        CreateMap<Driver, DriverResponse>();
     }
 }

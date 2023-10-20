@@ -8,6 +8,11 @@ public class ResponseToDomain : Profile
 {
     public ResponseToDomain()
     {
+        // achievement
         CreateMap<CreateDriverAchievementRequest, Achievement>();
+        CreateMap<UpdateDriverAchievementRequest, Achievement>();
+        // driver
+        CreateMap<UpdateDriverRequest, Driver>();
+        CreateMap<CreateDriverRequest, Driver>();
     }
 }
