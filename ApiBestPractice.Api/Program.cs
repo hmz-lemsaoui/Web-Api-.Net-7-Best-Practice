@@ -1,4 +1,6 @@
 using ApiBestPractice.DataServices.Data;
+using ApiBestPractice.DataServices.Repositories;
+using ApiBestPractice.DataServices.Repositories.Interfaces;
 using  Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddDbContext<AppDbContext>(
     options => 
