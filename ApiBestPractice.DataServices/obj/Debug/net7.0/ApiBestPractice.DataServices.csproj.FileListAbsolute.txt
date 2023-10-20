@@ -1,0 +1,17 @@
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\bin\Debug\net7.0\ApiBestPractice.DataServices.deps.json
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\bin\Debug\net7.0\ApiBestPractice.DataServices.runtimeconfig.json
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\bin\Debug\net7.0\ApiBestPractice.DataServices.dll
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\bin\Debug\net7.0\ApiBestPractice.DataServices.pdb
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\bin\Debug\net7.0\ApiBestPractice.Entities.dll
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\bin\Debug\net7.0\ApiBestPractice.Entities.pdb
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.csproj.AssemblyReference.cache
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.AssemblyInfoInputs.cache
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.AssemblyInfo.cs
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.csproj.CoreCompileInputs.cache
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.csproj.CopyComplete
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.dll
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\refint\ApiBestPractice.DataServices.dll
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.pdb
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ApiBestPractice.DataServices.genruntimeconfig.cache
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.DataServices\obj\Debug\net7.0\ref\ApiBestPractice.DataServices.dll

@@ -1,0 +1,11 @@
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\bin\Debug\net7.0\ApiBestPractice.Entities.deps.json
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\bin\Debug\net7.0\ApiBestPractice.Entities.dll
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\bin\Debug\net7.0\ApiBestPractice.Entities.pdb
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\ApiBestPractice.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\ApiBestPractice.Entities.AssemblyInfoInputs.cache
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\ApiBestPractice.Entities.AssemblyInfo.cs
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\ApiBestPractice.Entities.csproj.CoreCompileInputs.cache
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\ApiBestPractice.Entities.dll
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\refint\ApiBestPractice.Entities.dll
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\ApiBestPractice.Entities.pdb
+C:\Users\LEMSAOUI\3D Objects\projects-dotnet\ApiBestPractice\ApiBestPractice.Entities\obj\Debug\net7.0\ref\ApiBestPractice.Entities.dll
