@@ -9,6 +9,8 @@ public class UnitOfWork : IUnitOfWork, IDisposable
     private readonly AppDbContext _context;
     public IDriverRepository Drivers { get; }
     public IAchievementRepository Achievements { get; }
+    public ITicketRepository Tickets { get; }
+    public IEventRepository Events { get; }
 
     public UnitOfWork(AppDbContext context, ILoggerFactory loggerFactory)
     {
@@ -16,6 +18,8 @@ public class UnitOfWork : IUnitOfWork, IDisposable
         var logger = loggerFactory.CreateLogger("logs");
         Drivers = new DriverRepository(logger, context);
         Achievements = new AchievementRepository(logger, context);
+        Tickets = new TicketRepository(logger, context);
+        Events = new EventRepository(logger, context);
     }
     
     public async Task<bool> CompleteAsync()

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 
 namespace ApiBestPractice.DataServices.Repositories;
 
-public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
+public class GenericRepository<T> : IGenericRepository<T> where T : class
 {
     public readonly ILogger _Logger;
     protected readonly AppDbContext _context;

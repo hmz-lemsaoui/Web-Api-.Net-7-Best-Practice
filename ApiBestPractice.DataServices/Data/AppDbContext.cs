@@ -9,6 +9,8 @@ public class AppDbContext : DbContext
 
     public virtual Driver Drivers  { get; set; }
     public virtual Achievement Achievements { get; set; }
+    public virtual Ticket Tickets { get; set; }
+    public virtual Event Events { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -21,6 +23,40 @@ public class AppDbContext : DbContext
                 .HasForeignKey(x => x.DriverId)
                 .OnDelete(DeleteBehavior.NoAction)
                 .HasConstraintName("FX_Achievement_Driver");
+        });
+
+        modelBuilder.Entity<Event>(entity =>
+        {
+            entity.HasMany(x => x.Tickets)
+                .WithOne()
+                .HasForeignKey(x => x.EventId)
+                .IsRequired();
+
+            var demoEvent = new Event()
+            {
+                Id = 1,
+                Location = "Casablanca",
+                Name = "mara tonne"
+            };
+            entity.HasData(demoEvent);
+        });
+
+        modelBuilder.Entity<Ticket>(entity =>
+        {
+            var tickets = Enumerable.Range(1, 5000)
+                .Select(id => new Ticket()
+                {
+                    Id = Guid.NewGuid(),
+                    EventId = 1,
+                    EventDate = DateTime.Today.AddDays(10),
+                    TicketLevel = "First Class",
+                    Price = 100,
+                    AddedDate = DateTime.UtcNow,
+                    UpdatedDate = DateTime.UtcNow,
+                    Status = 1
+                });
+
+            entity.HasData(tickets);
         });
     }
 }
